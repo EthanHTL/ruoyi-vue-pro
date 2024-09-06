@@ -15,16 +15,27 @@
         <!-- 各种 module 拓展 -->
         <module>yudao-module-system</module>
         <module>yudao-module-infra</module>
-<!--        <module>yudao-module-member</module>-->
-<!--        <module>yudao-module-bpm</module>-->
-<!--        <module>yudao-module-report</module>-->
-<!--        <module>yudao-module-mp</module>-->
-<!--        <module>yudao-module-pay</module>-->
-<!--        <module>yudao-module-mall</module>-->
-<!--        <module>yudao-module-crm</module>-->
-<!--        <module>yudao-module-erp</module>-->
-<!-- AI 大模型的开启，请参考 https://doc.iocoder.cn/ai/build/ 文档，对 JDK 版本要要求！ -->
-<!--        <module>yudao-module-ai</module>-->
+        <module>yudao-module-member</module>
+
+        <!-- 工作流 -->
+        <module>yudao-module-bpm</module>
+
+        <!-- <module>yudao-module-report</module> -->
+        <!-- 公众号 -->
+        <!-- <module>yudao-module-mp</module> -->
+        <module>yudao-module-pay</module>
+
+        <!-- 商城 -->
+        <module>yudao-module-mall</module>
+
+        <!--  「待办事项」「线索管理」「客户管理」「联系人管理」「客户公海」「商机管理」「合同管理」「回款计划」「还款管理」「产品管理」「数据统计」 -->
+        <module>yudao-module-crm</module>
+
+        <!-- 「采购管理」「销售管理」「库存管理」「产品管理」「财务管理」 -->
+        <module>yudao-module-erp</module>
+
+        <!-- AI 大模型的开启，请参考 https://doc.iocoder.cn/ai/build/ 文档，对 JDK 版本要要求！ -->
+        <!--        <module>yudao-module-ai</module>-->
     </modules>
 
     <name>${project.artifactId}</name>
